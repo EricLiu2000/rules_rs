@@ -615,3 +615,4 @@ See https://registry.bazel.build/modules/rules_rs/latest/docs
 - [Aya](https://github.com/aya-rs/aya) and [bpf-linker](https://github.com/aya-rs/bpf-linker)
 - [Xybrid](https://github.com/xybrid-ai/xybrid)
 - [Drake](https://github.com/RobotLocomotion/drake)
+- [bazel-diff](https://github.com/Tinder/bazel-diff)
