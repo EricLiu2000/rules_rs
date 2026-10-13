@@ -194,7 +194,7 @@ def declare_rustc_toolchains(
             stdlib_linkflags = select({
                 "@platforms//os:android": ["-ldl", "-llog"],
                 "@platforms//os:freebsd": ["-lexecinfo", "-lpthread"],
-                "@platforms//os:macos": ["-lSystem", "-lresolv"],
+                "@platforms//os:macos": ["-lSystem"],
                 "@platforms//os:netbsd": ["-lpthread", "-lrt"],
                 "@platforms//os:nixos": ["-ldl", "-lpthread"],
                 "@platforms//os:openbsd": ["-lpthread"],
